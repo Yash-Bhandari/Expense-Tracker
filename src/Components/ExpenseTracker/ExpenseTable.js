@@ -10,7 +10,7 @@ import React from 'react';
 
 import { formatCost } from '../../utils';
 
-export const ExpenseTable = ({ expenses, selectedExpenses, toggleSelection, deleteExpense }) => {
+export const ExpenseTable = ({ expenses, deleteExpense }) => {
     const classes = useStyles();
     return (
         <Table className={classes.root}>
