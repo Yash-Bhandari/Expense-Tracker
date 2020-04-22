@@ -13,7 +13,7 @@ export const formatCost = cost => {
     if (cents === 0)
         formatted += '00';
     else if (cents < 10)
-        formatted += '0';
+        formatted += '0' + cents
     else
         formatted += cents;
     return formatted;
